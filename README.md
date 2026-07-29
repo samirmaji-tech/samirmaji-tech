@@ -1,14 +1,16 @@
-![Banner](./banner2.png)
+<p align="center">
+  <img src="./ChatGPT%20Image%20Jul%2029,%202026,%2011_55_58%20PM.png" alt="DevOps Banner" width="100%">
+</p>
 
 # ☁️ AWS & DevOps Journey
 
-This repo documents my hands-on journey learning **AWS, Linux, Git, Docker, and CI/CD** as I transition into a DevOps career. Instead of just following tutorials, I'm using this repo to track what I build, what breaks, and what I learn from fixing it.
+This repository documents my hands-on journey learning **AWS, Linux, Git, Docker, and CI/CD** as I transition into a DevOps career. Instead of simply following tutorials, I'm building real infrastructure, solving real problems, and documenting everything I learn along the way.
 
 ---
 
 ## 🎯 Goal
 
-Land an entry-level **DevOps / Cloud Engineer** role by building real, working infrastructure and automation projects — not just certificates.
+Land an entry-level **DevOps / Cloud Engineer** role by building real-world infrastructure and automation projects—not just earning certificates.
 
 ---
 
@@ -16,63 +18,62 @@ Land an entry-level **DevOps / Cloud Engineer** role by building real, working i
 
 | Stage | Topic | Status |
 |-------|-------|--------|
-| 1 | Linux fundamentals & shell scripting | ✅ In progress |
-| 2 | Git & GitHub workflows | ✅ In progress |
-| 3 | AWS core services (EC2, S3, IAM, VPC) | 🔄 Learning |
-| 4 | Docker — containerizing applications | 🔄 Learning |
+| 1 | Linux Fundamentals & Shell Scripting | ✅ In Progress |
+| 2 | Git & GitHub Workflows | ✅ In Progress |
+| 3 | AWS Core Services (EC2, S3, IAM, VPC) | 🔄 Learning |
+| 4 | Docker & Containerization | 🔄 Learning |
 | 5 | CI/CD with GitHub Actions | 🔄 Learning |
-| 6 | Terraform — Infrastructure as Code | ⬜ Planned |
-| 7 | Kubernetes — orchestration | ⬜ Planned |
+| 6 | Terraform (Infrastructure as Code) | ⬜ Planned |
+| 7 | Kubernetes | ⬜ Planned |
 | 8 | Monitoring (CloudWatch / Prometheus) | ⬜ Planned |
 
 ---
 
-## 📁 Projects in this journey
+## 📁 Projects
 
-### 1. [Linux Server Setup & Scripting](./linux-basics)
+### 🐧 Linux Server Setup & Bash Scripting
+Learning Linux administration, permissions, users, cron jobs, and automation scripts.
 
-Basic Linux administration tasks: user management, file permissions, cron jobs, and Bash automation scripts.
+### ☁️ AWS EC2 + S3 Static Website
+Deployed a static website using S3 while learning EC2, IAM, SSH, and Security Groups.
 
-### 2. [AWS EC2 + S3 Static Site](./aws-static-site)
+### 🐳 Dockerized Application
+Containerized an application by creating a Dockerfile, building images, and running containers.
 
-Deployed a static website using Amazon S3 and explored EC2, SSH, IAM roles, and security groups.
-
-### 3. [Dockerized Sample App](./docker-app)
-
-Containerized a sample application using Docker by writing a Dockerfile, building an image, and running it locally.
-
-### 4. [CI/CD with GitHub Actions](./ci-cd-pipeline)
-
-Configured a GitHub Actions workflow to lint code, run tests, and build a Docker image on every push.
+### 🚀 GitHub Actions CI/CD
+Automated build and testing workflows using GitHub Actions.
 
 ---
 
-## 📝 What I'm Learning
+## 📝 Learning Log
 
-I'm documenting real-world issues I encounter and how I solve them because troubleshooting is a key DevOps skill.
+I document real issues I encounter and how I solve them.
 
-- **Example:** *"SSH to EC2 failed because port 22 wasn't allowed in the security group. Added an inbound rule for my IP and verified connectivity."*
-- **Example:** *"Docker build failed due to a missing dependency in `requirements.txt`. Fixed the dependency list and verified the build locally before pushing."*
+- Fixed SSH connection issues caused by incorrect Security Group rules.
+- Solved Docker build failures by correcting missing dependencies.
+- Learned Git branching, merging, and pull request workflows.
+- Practiced troubleshooting instead of simply following tutorials.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tech Stack
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
 ---
 
 ## 📬 Connect
 
-If you're on a similar journey or hiring for DevOps roles, feel free to connect.
+**LinkedIn:**  
+https://www.linkedin.com/in/samir-maji-devops-aws/
 
-- **LinkedIn:** https://www.linkedin.com/in/samir-maji-devops-aws/
-- **Email:** samirmaji348@gmail.com
+**Email:**  
+samirmaji348@gmail.com
 
 ---
 
-⭐ **This repository is a living document—updated continuously as I learn, build, and improve my DevOps skills.**
+⭐ **This repository is a living document—updated continuously as I build, learn, and grow into a Cloud & DevOps Engineer.**
